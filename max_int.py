@@ -2,14 +2,14 @@
 # If the user inserts a negative number, the program should stop and print out the highest number he typed in
 # durring the perriod the program was running.
 
-current_max_int = 0
+max_int = 0
 
 num_int = 0
 
 while num_int >= 0:
     num_int = int(input("Input a number: "))
 
-    if num_int > current_max_int:
-        current_max_int = num_int
+    if num_int > max_int:
+        max_int = num_int
 
-print("The maximum is", current_max_int)
+print("The maximum is", max_int)
